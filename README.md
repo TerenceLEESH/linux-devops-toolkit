@@ -26,32 +26,32 @@ pip install psutil
 ## Usage
 ### system_status.sh
 ```bash
-bash bash/system_status.sh
+./bash/system_status.sh
 ```
 
 ### log_cleanup.sh
 ```bash
-bash bash/log_cleanup.sh /var/log 7
+./bash/log_cleanup.sh /var/log 7
 ```
 
 ### user_create.sh
 ```bash
-sudo bash bash/user_create.sh username
+sudo ./bash/user_create.sh username
 ```
 
 ### network_check.sh
 ```bash
-bash bash/network_check.sh
+./bash/network_check.sh
 ```
 
 ### system_monitor.py
 ```bash
-python3 python/system_monitor.py
+python3 ./python/system_monitor.py
 ```
 
 ### log_analyzer.py
 ```bash
-python3 python/log_analyzer.py /var/log/syslog
+python3 ./python/log_analyzer.py /var/log/syslog
 ```
 
 ## Use Cases
