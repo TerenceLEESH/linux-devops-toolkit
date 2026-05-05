@@ -101,3 +101,6 @@ python3 python/ai_cmd_assistant.py
 - Add cron job setup guide
 - Support multiple log formats in log_analyzer.py
 - Add more AI models support beyond Ollama3
+
+License
+This project is licensed under the MIT License — see the LICENSE file for details.
