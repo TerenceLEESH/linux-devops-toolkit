@@ -102,5 +102,5 @@ python3 python/ai_cmd_assistant.py
 - Support multiple log formats in log_analyzer.py
 - Add more AI models support beyond Ollama3
 
-License
+## License
 This project is licensed under the MIT License — see the LICENSE file for details.
