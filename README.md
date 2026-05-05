@@ -60,3 +60,44 @@ python3 ./python/log_analyzer.py /var/log/syslog
 - Onboard new team members with automated user setup
 - Diagnose network connectivity issues on a server
 - Monitor resource usage and get alerted before things break
+
+## AI-Powered Scripts (Ollama)
+
+### Setup
+```bash
+# Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Start Ollama service
+ollama serve &
+
+# Pull the model
+ollama pull llama3
+
+# Install Python dependencies
+pip3 install -r requirements.txt
+```
+
+### ai_log_analyzer.py
+Analyzes log files using AI and explains root causes in plain English.
+```bash
+python3 python/ai_log_analyzer.py /var/log/syslog
+```
+
+### ai_system_advisor.py
+Collects system stats and asks AI for health advice and tuning recommendations.
+```bash
+python3 python/ai_system_advisor.py
+```
+
+### ai_cmd_assistant.py
+Type what you want to do in plain English, get the Linux command back.
+```bash
+python3 python/ai_cmd_assistant.py
+```
+
+## Roadmap
+- Add email alerts to system_monitor.py
+- Add cron job setup guide
+- Support multiple log formats in log_analyzer.py
+- Add more AI models support beyond Ollama3
